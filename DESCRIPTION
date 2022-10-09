@@ -1,0 +1,13 @@
+Package: rutil.ms365
+Title: Helpers For Microsoft 365 Graph API
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andrew", "Harvey", , "ah.harvey@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7252-1583"))
+Description: Provides various helper functions for interacting with the Microsoft Graph API.
+    Depends on the Microsoft365R and AzureGraph packages. Exposes a number of helper functions.  
+Imports: Microsoft365R, AzureGraph, glue, dplyr
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
